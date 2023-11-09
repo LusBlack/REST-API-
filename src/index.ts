@@ -22,8 +22,8 @@ server.listen(5000, () => {
 });
 
 
-const MONGO_URL ='mongodb+srv://louisikwuegbu3:BeachMaster02@cluster0.dfzuqzs.mongodb.net/?retryWrites=true&w=majority';
+const MONGO_URL ='mongodb+srv://Louis:BeachMaster02@rest.7vyzbzp.mongodb.net/?retryWrites=true&w=majority';
 
 mongoose.Promise = Promise;
 mongoose.connect(MONGO_URL);
-mongoose.connection.on('error', (error: Error) => console.log(error)); //test
+mongoose.connection.on('error', (error: Error) => console.log("wahala dey")); //test
